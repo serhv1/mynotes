@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "420360693952",
+    "firebase_url": "https://mynotes-sergepro-project-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "mynotes-sergepro-project",
+    "storage_bucket": "mynotes-sergepro-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420360693952:android:60ecc98834f7c9755de525",
+        "android_client_info": {
+          "package_name": "com.example.mynotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420360693952-b43dvjkpulip22ovu3rg7t2258nd6m7c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbOUfp0BArUFJ9IfGkaVt2_57oNqAJF-c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420360693952-b43dvjkpulip22ovu3rg7t2258nd6m7c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
