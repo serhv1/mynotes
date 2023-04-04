@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/foundation.dart';
-import 'package:mynotes/services/crud/crud_exceprions.dart';
+import 'package:mynotes/services/crud/crud_excepsions.dart';
 
 import 'package:sqflite/sqflite.dart';
 import 'package:path_provider/path_provider.dart';
