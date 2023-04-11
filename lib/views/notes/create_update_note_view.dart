@@ -62,7 +62,7 @@ class _CreateUpdateNoteViewState extends State<CreateUpdateNoteView> {
     return newNote;
   }
 
-  void _delteNotesIfTextIsEmpty() {
+  void _deleteNotesIfTextIsEmpty() {
     final note = _note;
     if (_textController.text.isEmpty && note != null) {
       _notesService.deleteNote(documentId: note.documentId);
@@ -82,7 +82,7 @@ class _CreateUpdateNoteViewState extends State<CreateUpdateNoteView> {
 
   @override
   void dispose() {
-    _delteNotesIfTextIsEmpty();
+    _deleteNotesIfTextIsEmpty();
     _saveNoteIfTextIsNotEmpty();
     _textController.dispose();
     super.dispose();
