@@ -17,7 +17,7 @@ void main() {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    title: 'Flutter Demo',
+    title: 'My Notes App',
     theme: ThemeData(
       primarySwatch: Colors.blue,
     ),
