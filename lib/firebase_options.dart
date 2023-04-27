@@ -54,7 +54,8 @@ class DefaultFirebaseOptions {
     appId: '1:420360693952:android:60ecc98834f7c9755de525',
     messagingSenderId: '420360693952',
     projectId: 'mynotes-sergepro-project',
-    databaseURL: 'https://mynotes-sergepro-project-default-rtdb.europe-west1.firebasedatabase.app',
+    databaseURL:
+        'https://mynotes-sergepro-project-default-rtdb.europe-west1.firebasedatabase.app',
     storageBucket: 'mynotes-sergepro-project.appspot.com',
   );
 
@@ -63,9 +64,11 @@ class DefaultFirebaseOptions {
     appId: '1:420360693952:ios:d4fe293380d700b35de525',
     messagingSenderId: '420360693952',
     projectId: 'mynotes-sergepro-project',
-    databaseURL: 'https://mynotes-sergepro-project-default-rtdb.europe-west1.firebasedatabase.app',
+    databaseURL:
+        'https://mynotes-sergepro-project-default-rtdb.europe-west1.firebasedatabase.app',
     storageBucket: 'mynotes-sergepro-project.appspot.com',
-    iosClientId: '420360693952-ndcpabprcp7j84f8731puo5qm7asih6h.apps.googleusercontent.com',
-    iosBundleId: 'com.example.mynotes',
+    iosClientId:
+        '420360693952-ndcpabprcp7j84f8731puo5qm7asih6h.apps.googleusercontent.com',
+    iosBundleId: 'com.jam.mynotes',
   );
 }
