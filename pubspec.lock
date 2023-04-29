@@ -295,13 +295,18 @@ packages:
     source: hosted
     version: "0.13.1"
   flutter_lints:
-    dependency: "direct dev"
+    dependency: "direct overridden"
     description:
       name: flutter_lints
       sha256: aeb0b80a8b3709709c9cc496cdc027c5b3216796bc0af0ce1007eaf24464fd4c
       url: "https://pub.dev"
     source: hosted
     version: "2.0.1"
+  flutter_localizations:
+    dependency: "direct main"
+    description: flutter
+    source: sdk
+    version: "0.0.0"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -353,7 +358,7 @@ packages:
     source: hosted
     version: "4.0.15"
   intl:
-    dependency: transitive
+    dependency: "direct overridden"
     description:
       name: intl
       sha256: "910f85bce16fb5c6f614e117efa303e85a1731bb0081edf3604a2ae6e9a3cc91"
@@ -710,7 +715,7 @@ packages:
     source: hosted
     version: "1.2.1"
   test:
-    dependency: "direct dev"
+    dependency: "direct overridden"
     description:
       name: test
       sha256: "4f92f103ef63b1bbac6f4bd1930624fca81b2574464482512c4f0896319be575"
